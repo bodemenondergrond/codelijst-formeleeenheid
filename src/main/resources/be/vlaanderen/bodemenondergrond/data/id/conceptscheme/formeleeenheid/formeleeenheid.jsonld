@@ -1,0 +1,4694 @@
+{
+    "@context": {
+        "sparql-service-description-graph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#graph",
+            "@type": "@id"
+        },
+        "defaultGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultGraph",
+            "@type": "@id"
+        },
+        "collections": {
+            "@type": "@id",
+            "@reverse": "member"
+        },
+        "id": "@id",
+        "type": {
+            "@id": "@type",
+            "@type": "@id"
+        },
+        "source": {
+            "@id": "http://purl.org/dc/terms/source",
+            "@type": "@id"
+        },
+        "sparql-service-description-name": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#name",
+            "@type": "@id"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier",
+            "@type": "@id"
+        },
+        "hasVersion": {
+            "@id": "http://purl.org/dc/terms/hasVersion",
+            "@type": "@id"
+        },
+        "isVersionOf": {
+            "@id": "http://purl.org/dc/terms/isVersionOf",
+            "@type": "@id"
+        },
+        "label": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@language": "nl"
+        },
+        "distribution": {
+            "@id": "http://www.w3.org/ns/dcat#distribution",
+            "@type": "@id"
+        },
+        "alternative": {
+            "@id": "http://purl.org/dc/terms/alternative",
+            "@language": "nl"
+        },
+        "description": {
+            "@id": "http://purl.org/dc/terms/description",
+            "@language": "nl"
+        },
+        "spatial": {
+            "@id": "http://purl.org/dc/terms/spatial",
+            "@type": "@id"
+        },
+        "page": {
+            "@id": "http://xmlns.com/foaf/0.1/page",
+            "@type": "@id"
+        },
+        "theme": {
+            "@id": "http://www.w3.org/ns/dcat#theme",
+            "@type": "@id"
+        },
+        "title": {
+            "@id": "http://purl.org/dc/terms/title",
+            "@language": "nl"
+        },
+        "landingPage": {
+            "@id": "http://www.w3.org/ns/dcat#landingPage",
+            "@type": "@id"
+        },
+        "rightsHolder": {
+            "@id": "http://purl.org/dc/terms/rightsHolder",
+            "@type": "@id"
+        },
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "accrualPeriodicity": {
+            "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+            "@type": "@id"
+        },
+        "publisher": {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "@id"
+        },
+        "dct.language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contactPoint": {
+            "@id": "http://www.w3.org/ns/dcat#contactPoint",
+            "@type": "@id"
+        },
+        "temporal": {
+            "@id": "http://purl.org/dc/terms/temporal",
+            "@type": "@id"
+        },
+        "issued": {
+            "@id": "http://purl.org/dc/terms/issued",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "accessRights": {
+            "@id": "http://purl.org/dc/terms/accessRights",
+            "@type": "@id"
+        },
+        "license": {
+            "@id": "http://purl.org/dc/terms/license",
+            "@type": "@id"
+        },
+        "accessURL": {
+            "@id": "http://www.w3.org/ns/dcat#accessURL",
+            "@type": "@id"
+        },
+        "compressFormat": {
+            "@id": "http://www.w3.org/ns/dcat#compressFormat",
+            "@type": "@id"
+        },
+        "downloadURL": {
+            "@id": "http://www.w3.org/ns/dcat#downloadURL",
+            "@type": "@id"
+        },
+        "mediaType": {
+            "@id": "http://www.w3.org/ns/dcat#mediaType",
+            "@type": "@id"
+        },
+        "format": {
+            "@id": "http://purl.org/dc/terms/format",
+            "@type": "@id"
+        },
+        "versionInfo": {
+            "@id": "http://spdx.org/rdf/terms#versionInfo"
+        },
+        "packageName": {
+            "@id": "http://spdx.org/rdf/terms#packageName"
+        },
+        "packageFileName": {
+            "@id": "http://spdx.org/rdf/terms#packageFileName"
+        },
+        "downloadLocation": {
+            "@id": "http://spdx.org/rdf/terms#downloadLocation",
+            "@type": "@id"
+        },
+        "relationshipType_packageOf": {
+            "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
+            "@type": "@id"
+        },
+        "availableGraphs": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+            "@type": "@id"
+        },
+        "resultFormat": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "@type": "@id"
+        },
+        "feature": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#feature",
+            "@type": "@id"
+        },
+        "supportedLanguage": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "@type": "@id"
+        },
+        "url": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#url",
+            "@type": "@id"
+        },
+        "comment": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "@language": "nl"
+        },
+        "defaultDataset": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+            "@type": "@id"
+        },
+        "endpoint": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "@type": "@id"
+        },
+        "namedGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+            "@type": "@id"
+        },
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        },
+        "service": {
+            "@id": "http://www.w3.org/ns/dcat#service",
+            "@type": "@id"
+        },
+        "rootResource": {
+            "@id": "http://rdfs.org/ns/void#rootResource",
+            "@type": "@id"
+        },
+        "dataset": {
+            "@id": "http://www.w3.org/ns/dcat#dataset",
+            "@type": "@id"
+        },
+        "servesDataset": {
+            "@id": "http://www.w3.org/ns/dcat#servesDataset",
+            "@type": "@id"
+        },
+        "endpointDescription": {
+            "@id": "http://www.w3.org/ns/dcat#endpointDescription",
+            "@type": "@id"
+        },
+        "endpointURL": {
+            "@id": "http://www.w3.org/ns/dcat#endpointURL",
+            "@type": "@id"
+        },
+        "conformsTo": {
+            "@id": "http://purl.org/dc/terms/conformsTo",
+            "@type": "@id"
+        },
+        "dc.identifier": {
+            "@id": "http://purl.org/dc/elements/1.1/identifier"
+        },
+        "dc.language": {
+            "@id": "http://purl.org/dc/elements/1.1/language",
+            "@language": "nl"
+        },
+        "dc.source": {
+            "@id": "http://purl.org/dc/elements/1.1/source"
+        },
+        "version": {
+            "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+        },
+        "name": {
+            "@id": "http://spdx.org/rdf/terms#name"
+        },
+        "seeAlso": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inScheme": {
+            "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "@type": "@id"
+        },
+        "topConceptOf": {
+            "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "@type": "@id"
+        },
+        "hasTopConcept": {
+            "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "@type": "@id"
+        },
+        "uri": {
+            "@id": "@id",
+            "@type": "@id"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "nl"
+        },
+        "notation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "nl"
+        },
+        "note": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "nl"
+        },
+        "definition": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "nl"
+        },
+        "member": {
+            "@id": "http://www.w3.org/2004/02/skos/core#member",
+            "@type": "@id"
+        },
+        "casNumber": {
+            "@id": "http://dbpedia.org/ontology/casNumber"
+        },
+        "references": {
+            "@id": "http://purl.org/dc/terms/references",
+            "@type": "@id"
+        },
+        "isReferencedBy": {
+            "@id": "http://purl.org/dc/terms/isReferencedBy",
+            "@type": "@id"
+        },
+        "relation": {
+            "@id": "http://purl.org/dc/terms/relation",
+            "@type": "@id"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "broaderTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "broadMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "@type": "@id"
+        },
+        "exactMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "@type": "@id"
+        },
+        "mappingRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+            "@type": "@id"
+        },
+        "narrowerTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+            "@type": "@id"
+        },
+        "narrowMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "@type": "@id"
+        },
+        "semanticRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "belongsTo": {
+            "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+            "@type": "@id"
+        },
+        "concept": "https://data.bodemenondergrond.vlaanderen.be/id/concept/formeleeenheid/",
+        "collectie": "https://data.bodemenondergrond.vlaanderen.be/id/collection/formeleeenheid/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "adms": "http://www.w3.org/ns/adms#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "conceptscheme": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "datasets": "https://datasets.omgeving.vlaanderen.be/",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dct": "http://purl.org/dc/terms/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
+        "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
+        "omg_catalog": "https://data.bodemenondergrond.vlaanderen.be/id/catalog/",
+        "omg_catalog_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/",
+        "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
+        "omg_dataservice": "https://data.bodemenondergrond.vlaanderen.be/id/dataservice/",
+        "omg_dataset_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/",
+        "omg_dataset": "https://data.bodemenondergrond.vlaanderen.be/id/dataset/",
+        "omg_distribution_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/",
+        "omg_distribution": "https://data.bodemenondergrond.vlaanderen.be/id/distribution/",
+        "omg_graphcollection": "https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/",
+        "omg_graph": "https://data.bodemenondergrond.vlaanderen.be/id/graph/",
+        "omg_id": "https://data.bodemenondergrond.vlaanderen.be/id/",
+        "omg_named_graph": "https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/",
+        "omg_ontology": "https://data.bodemenondergrond.vlaanderen.be/id/ontology/",
+        "omg_package": "https://data.bodemenondergrond.vlaanderen.be/id/package/",
+        "omg_periodoftime": "https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/",
+        "omg_service": "https://data.bodemenondergrond.vlaanderen.be/id/service/",
+        "omg_vcard": "https://data.bodemenondergrond.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "repo": "https://repo.omgeving.vlaanderen.be/artifactory/release/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "ts": "http://www.w3.org/ns/formats/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "void": "http://rdfs.org/ns/void#",
+        "wise": "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@base": "https://data.bodemenondergrond.vlaanderen.be/id/concept/formeleeenheid/"
+    },
+    "graph": [
+        {
+            "id": "collectie:formeleeenheden",
+            "type": "skos:Collection",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.formeleeenheid.formeleeenheden",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "member": [
+                "concept:A",
+                "concept:Aa",
+                "concept:AaBe",
+                "concept:AaOe",
+                "concept:Ab",
+                "concept:Ag",
+                "concept:Bb",
+                "concept:BbGe",
+                "concept:BbHo",
+                "concept:BbOp",
+                "concept:Bc",
+                "concept:BcAn",
+                "concept:BcEd",
+                "concept:BcKi",
+                "concept:BcZo",
+                "concept:Be",
+                "concept:Bi",
+                "concept:BiBe",
+                "concept:BiKe",
+                "concept:BiKs",
+                "concept:Bm",
+                "concept:BmBt",
+                "concept:BmBw",
+                "concept:BmPu",
+                "concept:BmTe",
+                "concept:Bo",
+                "concept:BoBt",
+                "concept:BoHe",
+                "concept:BoKe",
+                "concept:BoOb",
+                "concept:Br",
+                "concept:BrAr",
+                "concept:BrBh",
+                "concept:BrCg",
+                "concept:BrDi",
+                "concept:BrKr",
+                "concept:BrNe",
+                "concept:Bs",
+                "concept:BsAk",
+                "concept:BsHd",
+                "concept:BsSv",
+                "concept:BsVs",
+                "concept:Ca",
+                "concept:CaDi",
+                "concept:CaNa",
+                "concept:CaWe",
+                "concept:Ci",
+                "concept:Cm",
+                "concept:De",
+                "concept:Di",
+                "concept:DiDe",
+                "concept:DiDn",
+                "concept:Eg",
+                "concept:El",
+                "concept:FX",
+                "concept:G",
+                "concept:Ge",
+                "concept:GeAb",
+                "concept:GeHg",
+                "concept:GeHo",
+                "concept:GeKw",
+                "concept:GeMe",
+                "concept:GePi",
+                "concept:GeVl",
+                "concept:Gm",
+                "concept:Gt",
+                "concept:GtAb",
+                "concept:GtDi",
+                "concept:GtDp",
+                "concept:GtOg",
+                "concept:GtTi",
+                "concept:HP",
+                "concept:Ha",
+                "concept:Hn",
+                "concept:HnBe",
+                "concept:HnCh",
+                "concept:HnGr",
+                "concept:HnHa",
+                "concept:HnLi",
+                "concept:HnWa",
+                "concept:Ho",
+                "concept:Hs",
+                "concept:HsGe",
+                "concept:HsMa",
+                "concept:HsOr",
+                "concept:Hy",
+                "concept:HyBo",
+                "concept:HyEg",
+                "concept:HyMo",
+                "concept:Hz",
+                "concept:IE",
+                "concept:KRWe",
+                "concept:Kd",
+                "concept:Ke",
+                "concept:Kh",
+                "concept:Kl",
+                "concept:Ko",
+                "concept:KoAa",
+                "concept:KoMh",
+                "concept:KoMo",
+                "concept:KoMp",
+                "concept:KoOl",
+                "concept:KoOm",
+                "concept:KoOr",
+                "concept:KoOu",
+                "concept:KoRo",
+                "concept:KoSm",
+                "concept:KoZo",
+                "concept:Kz",
+                "concept:KzB1",
+                "concept:KzB2",
+                "concept:KzBr",
+                "concept:KzJa",
+                "concept:KzPe",
+                "concept:KzWb",
+                "concept:KzX",
+                "concept:LA",
+                "concept:Ld",
+                "concept:Li",
+                "concept:LiKr",
+                "concept:LiLu",
+                "concept:LiMe",
+                "concept:LiOo",
+                "concept:LiX",
+                "concept:LiZa",
+                "concept:Lk",
+                "concept:Ln",
+                "concept:MA",
+                "concept:MAa",
+                "concept:MAk",
+                "concept:MAkAa",
+                "concept:MAkHe",
+                "concept:MBe",
+                "concept:MBu",
+                "concept:MBuBr",
+                "concept:MBuBu",
+                "concept:MBuGr",
+                "concept:MDo",
+                "concept:MDoB1",
+                "concept:MDoB2",
+                "concept:MDoOv",
+                "concept:MDoZe",
+                "concept:ME",
+                "concept:MEs",
+                "concept:MGu",
+                "concept:MGuBe",
+                "concept:MGuLa",
+                "concept:MGuLi",
+                "concept:MGuVi",
+                "concept:MGuZe",
+                "concept:MHa",
+                "concept:MJU",
+                "concept:MKR",
+                "concept:MKe",
+                "concept:MKu",
+                "concept:MMa",
+                "concept:MMaEm",
+                "concept:MMaGr",
+                "concept:MMaKu",
+                "concept:MMaMe",
+                "concept:MMaNe",
+                "concept:MMaVa",
+                "concept:MMs",
+                "concept:MMu",
+                "concept:MMuAn",
+                "concept:MMuHa",
+                "concept:MMuWe",
+                "concept:MNe",
+                "concept:MNeSt",
+                "concept:MNeWa",
+                "concept:MRo",
+                "concept:MSl",
+                "concept:MVa",
+                "concept:MVaBG",
+                "concept:MVaOG",
+                "concept:MVg",
+                "concept:Ma",
+                "concept:MaAs",
+                "concept:MaBu",
+                "concept:MaOd",
+                "concept:MaOn",
+                "concept:MaUr",
+                "concept:MaWe",
+                "concept:MaZo",
+                "concept:Mb",
+                "concept:Me",
+                "concept:MeB",
+                "concept:Ml",
+                "concept:MlDo",
+                "concept:MlMa",
+                "concept:MlMh",
+                "concept:MlRe",
+                "concept:MlRu",
+                "concept:Mo",
+                "concept:Mp",
+                "concept:Mx",
+                "concept:My",
+                "concept:Ne",
+                "concept:Op",
+                "concept:OpEi",
+                "concept:OpMa",
+                "concept:OpOp",
+                "concept:Or",
+                "concept:Ot",
+                "concept:Ow",
+                "concept:P1",
+                "concept:P2",
+                "concept:P",
+                "concept:PAi",
+                "concept:PAl",
+                "concept:PAn",
+                "concept:PAt",
+                "concept:PAtGa",
+                "concept:PAtWa",
+                "concept:PAv",
+                "concept:PBe",
+                "concept:PBg",
+                "concept:PBi",
+                "concept:PBl",
+                "concept:PBn",
+                "concept:PBnXa",
+                "concept:PBnXb",
+                "concept:PBnXc",
+                "concept:PBo",
+                "concept:PBp",
+                "concept:PBr",
+                "concept:PBv",
+                "concept:PC",
+                "concept:PCa",
+                "concept:PCaFl",
+                "concept:PCaRa",
+                "concept:PCe",
+                "concept:PCh",
+                "concept:PChAs",
+                "concept:PChEi",
+                "concept:PChMo",
+                "concept:PCo",
+                "concept:PCoBo",
+                "concept:PCoTr",
+                "concept:PCr",
+                "concept:PDe",
+                "concept:PEt",
+                "concept:PEv",
+                "concept:PF",
+                "concept:PFa",
+                "concept:PFf",
+                "concept:PFi",
+                "concept:PFiPi",
+                "concept:PFiXa",
+                "concept:PFiXb",
+                "concept:PFiXc",
+                "concept:PFiXd",
+                "concept:PFiXe",
+                "concept:PFl",
+                "concept:PFlMe",
+                "concept:PFlNe",
+                "concept:PFlWa",
+                "concept:PFq",
+                "concept:PFr",
+                "concept:PFu",
+                "concept:PG",
+                "concept:PGe",
+                "concept:PGo",
+                "concept:PHe",
+                "concept:PHeH1",
+                "concept:PHeH2",
+                "concept:PHeH3",
+                "concept:PHeH4",
+                "concept:PHeH5",
+                "concept:PHi",
+                "concept:PHo",
+                "concept:PHs",
+                "concept:PHu",
+                "concept:PIt",
+                "concept:PJo",
+                "concept:PK",
+                "concept:PKe",
+                "concept:PLa",
+                "concept:PLm",
+                "concept:PLo",
+                "concept:PLs",
+                "concept:PLt",
+                "concept:PLu",
+                "concept:PMa",
+                "concept:PMd",
+                "concept:PMdXa",
+                "concept:PMdXb",
+                "concept:PMdXc",
+                "concept:PMdXd",
+                "concept:PMdXe",
+                "concept:PMdXf",
+                "concept:PMdXg",
+                "concept:PMn",
+                "concept:PMo",
+                "concept:PMoFr",
+                "concept:PMoTa",
+                "concept:PMoXx",
+                "concept:PMu",
+                "concept:PNe",
+                "concept:POD",
+                "concept:POr",
+                "concept:POs",
+                "concept:POsAs",
+                "concept:POsRi",
+                "concept:PPe",
+                "concept:PPo",
+                "concept:PPr",
+                "concept:PPt",
+                "concept:PRh",
+                "concept:PRi",
+                "concept:PRk",
+                "concept:PRn",
+                "concept:PSa",
+                "concept:PSaBo",
+                "concept:PSaFe",
+                "concept:PSaMe",
+                "concept:PSe",
+                "concept:PSo",
+                "concept:PSt",
+                "concept:PTo",
+                "concept:PToAl",
+                "concept:PToCr",
+                "concept:PToPo",
+                "concept:PToPr",
+                "concept:PToVa",
+                "concept:PToVi",
+                "concept:PTr",
+                "concept:PTu",
+                "concept:PTuFo",
+                "concept:PTuRo",
+                "concept:PTuXx",
+                "concept:PVa",
+                "concept:PVc",
+                "concept:PVe",
+                "concept:PVi",
+                "concept:PVl",
+                "concept:PVs",
+                "concept:Pa",
+                "concept:Pd",
+                "concept:PdHe",
+                "concept:Q",
+                "concept:QH",
+                "concept:QP",
+                "concept:RO",
+                "concept:RU",
+                "concept:Rb",
+                "concept:S",
+                "concept:SC",
+                "concept:Sh",
+                "concept:ShGr",
+                "concept:ShNe",
+                "concept:Si",
+                "concept:Sk",
+                "concept:St",
+                "concept:StBo",
+                "concept:StHa",
+                "concept:StLo",
+                "concept:T",
+                "concept:TO",
+                "concept:TR",
+                "concept:Ti",
+                "concept:TiDo",
+                "concept:TiEr",
+                "concept:TiKn",
+                "concept:TiLo",
+                "concept:Tt",
+                "concept:TtEg",
+                "concept:TtEk",
+                "concept:TtKo",
+                "concept:U",
+                "concept:Ve",
+                "concept:Vl",
+                "concept:VlCa",
+                "concept:VlDh",
+                "concept:VlDu",
+                "concept:Vo",
+                "concept:VoSo",
+                "concept:VoVe",
+                "concept:VoVo",
+                "concept:We",
+                "concept:WeBs",
+                "concept:WeRv",
+                "concept:WeTu",
+                "concept:ZE",
+                "concept:Zd",
+                "concept:Zz",
+                "concept:ZzBa",
+                "concept:ZzRu",
+                "concept:ZzWa"
+            ],
+            "prefLabel": "Collectie van formeleeenheden."
+        },
+        {
+            "id": "concept:A",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.a",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "A",
+            "prefLabel": "Menselijke verstoring",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Aa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.aa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Aa",
+            "prefLabel": "zand/zandh. Klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:AaBe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.aabe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "AaBe",
+            "prefLabel": "zandh. Klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:AaOe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.aaoe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "AaOe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ab",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ab",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ab",
+            "prefLabel": "organisch siliciklastisch sediment, tufa, veen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ag",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ag",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ag",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Bb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bb",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Bb",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BbGe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bbge",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BbGe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BbHo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bbho",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BbHo",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BbOp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bbop",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BbOp",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Bc",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bc",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Bc",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BcAn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bcan",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BcAn",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BcEd",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bced",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BcEd",
+            "prefLabel": "grind",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BcKi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bcki",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BcKi",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BcZo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bczo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BcZo",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Be",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.be",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Be",
+            "prefLabel": "smectiet klei, glauconiethoudende zanden, mergel",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Bi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Bi",
+            "prefLabel": "zand/klei/zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BiBe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bibe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BiBe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BiKe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bike",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BiKe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BiKs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.biks",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BiKs",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Bm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bm",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Bm",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BmBt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bmbt",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BmBt",
+            "prefLabel": "silt",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BmBw",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bmbw",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BmBw",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BmPu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bmpu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BmPu",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BmTe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bmte",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BmTe",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Bo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Bo",
+            "prefLabel": "zand/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BoBt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bobt",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BoBt",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BoHe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bohe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BoHe",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BoKe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.boke",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BoKe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BoOb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.boob",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BoOb",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Br",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.br",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Br",
+            "prefLabel": "zand+kalkzandsteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BrAr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brar",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BrAr",
+            "prefLabel": "zand+kalkzandsteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BrBh",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brbh",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BrBh",
+            "prefLabel": "zand+kalkzandsteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BrCg",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brcg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BrCg",
+            "prefLabel": "zand+kalkzandsteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BrDi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brdi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BrDi",
+            "prefLabel": "zand+kalkzandsteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BrKr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brkr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BrKr",
+            "prefLabel": "zand+kalkzandsteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BrNe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brne",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BrNe",
+            "prefLabel": "zand+kalkzandsteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Bs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bs",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Bs",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BsAk",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bsak",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BsAk",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BsHd",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bshd",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BsHd",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BsSv",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bssv",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BsSv",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:BsVs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bsvs",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "BsVs",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ca",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ca",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ca",
+            "prefLabel": "Gesteenten afgezet tijdens het Carboon",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:CaDi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.cadi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "CaDi",
+            "prefLabel": "Kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:CaNa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.cana",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "CaNa",
+            "prefLabel": "kleisteen en zandsteen met steenkool en kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:CaWe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.cawe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "CaWe",
+            "prefLabel": "zandsteen met steenkool, kleisteen en conglomeraat",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ci",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ci",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ci",
+            "prefLabel": "Kalkareniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Cm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.cm",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Cm",
+            "prefLabel": "zandsteen, kwartsiet, kleisteen, schalie en schist",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:De",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.de",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "De",
+            "prefLabel": "zandsteen met kleisteen en kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Di",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.di",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Di",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:DiDe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.dide",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "DiDe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:DiDn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.didn",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "DiDn",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Eg",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.eg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Eg",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:El",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.el",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "El",
+            "prefLabel": "fluviatiele en periglaciale invulling",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:FX",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.fx",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "FX",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:G",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.g",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "G",
+            "prefLabel": "geroerd/verstoord",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ge",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ge",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ge",
+            "prefLabel": "zand/kleih zand/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GeAb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.geab",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GeAb",
+            "prefLabel": "klei en zand met ligniet en hout",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GeHg",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gehg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GeHg",
+            "prefLabel": "zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GeHo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.geho",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GeHo",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GeKw",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gekw",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GeKw",
+            "prefLabel": "afwisseling zand en zandige klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GeMe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.geme",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GeMe",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GePi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gepi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GePi",
+            "prefLabel": "kleih zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GeVl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gevl",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GeVl",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Gm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gm",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Gm",
+            "prefLabel": "loess",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Gt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gt",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Gt",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GtAb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtab",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GtAb",
+            "prefLabel": "fijn zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GtDi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtdi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GtDi",
+            "prefLabel": "siltig zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GtDp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtdp",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GtDp",
+            "prefLabel": "fijn zand met venige lagen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GtOg",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtog",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GtOg",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:GtTi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtti",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "GtTi",
+            "prefLabel": "silt/zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HP",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hp",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HP",
+            "prefLabel": "kalksteen/kalkareniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ha",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ha",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ha",
+            "prefLabel": "mergel/klei/kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Hn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hn",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Hn",
+            "prefLabel": "zand/tufsteen, kleihoudende leem, kalksteen/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HnBe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnbe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HnBe",
+            "prefLabel": "klei/zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HnCh",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnch",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HnCh",
+            "prefLabel": "tufsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HnGr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hngr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HnGr",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HnHa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnha",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HnHa",
+            "prefLabel": "kleih leem",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HnLi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnli",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HnLi",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HnWa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnwa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HnWa",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ho",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ho",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ho",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Hs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hs",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Hs",
+            "prefLabel": "mergel/zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HsGe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hsge",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HsGe",
+            "prefLabel": "mergel",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HsMa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hsma",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HsMa",
+            "prefLabel": "mergel",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HsOr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hsor",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HsOr",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Hy",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hy",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Hy",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HyBo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hybo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HyBo",
+            "prefLabel": "glauconiethoudend, fijn tot medium zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HyEg",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hyeg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HyEg",
+            "prefLabel": "fijn zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:HyMo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hymo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "HyMo",
+            "prefLabel": "kleiig fijn zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Hz",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hz",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Hz",
+            "prefLabel": "zand/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:IE",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ie",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "IE",
+            "prefLabel": "klei en zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KRWe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.krwe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KRWe",
+            "prefLabel": "TO DO",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Kd",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kd",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Kd",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ke",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ke",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ke",
+            "prefLabel": "zand / klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Kh",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kh",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Kh",
+            "prefLabel": "zand / grind",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Kl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kl",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Kl",
+            "prefLabel": "kleih zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ko",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ko",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ko",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoAa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koaa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoAa",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoMh",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.komh",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoMh",
+            "prefLabel": "kleiig zand en zandige klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoMo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.komo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoMo",
+            "prefLabel": "zandh klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoMp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.komp",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoMp",
+            "prefLabel": "kleih zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoOl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kool",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoOl",
+            "prefLabel": "zware blauwgrijze klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoOm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koom",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoOm",
+            "prefLabel": "zware blauwgrijze klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoOr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koor",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoOr",
+            "prefLabel": "zware blauwgrijze klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoOu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koou",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoOu",
+            "prefLabel": "zware blauwgrijze klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoRo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koro",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoRo",
+            "prefLabel": "siltig tot fijn zandig, kalkhoudende klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoSm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kosm",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoSm",
+            "prefLabel": "stijve klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KoZo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kozo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KoZo",
+            "prefLabel": "siltige tot zandige klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Kz",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kz",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Kz",
+            "prefLabel": "kiezelooliet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KzB1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzb1",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KzB1",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KzB2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzb2",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KzB2",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KzBr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzbr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KzBr",
+            "prefLabel": "klei- en zand-intercalatie met ligniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KzJa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzja",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KzJa",
+            "prefLabel": "kiezelooliet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KzPe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzpe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KzPe",
+            "prefLabel": "kiezelooliet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KzWb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzwb",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KzWb",
+            "prefLabel": "kiezelooliet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:KzX",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzx",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "KzX",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:LA",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.la",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "LA",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ld",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ld",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ld",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Li",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.li",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Li",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:LiKr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.likr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "LiKr",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:LiLu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lilu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "LiLu",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:LiMe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lime",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "LiMe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:LiOo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lioo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "LiOo",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:LiX",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lix",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "LiX",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:LiZa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.liza",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "LiZa",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Lk",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lk",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Lk",
+            "prefLabel": "grind",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ln",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ln",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ln",
+            "prefLabel": "grind",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MA",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ma",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MA",
+            "prefLabel": "zand en grind",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MAa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MAa",
+            "prefLabel": "kalkhoudende, dgrijze kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MAk",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mak",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MAk",
+            "prefLabel": "zand, klei, ligniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MAkAa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.makaa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MAkAa",
+            "prefLabel": "gelige zanden",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MAkHe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.makhe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MAkHe",
+            "prefLabel": "afz v zand, silt en klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MBe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MBe",
+            "prefLabel": "Krijt met mergel en zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MBu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MBu",
+            "prefLabel": "zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MBuBr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbubr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MBuBr",
+            "prefLabel": "rode klei- tot zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MBuBu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbubu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MBuBu",
+            "prefLabel": "rode zandsteen en conglomeraat",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MBuGr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbugr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MBuGr",
+            "prefLabel": "rode silt- tot zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MDo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MDo",
+            "prefLabel": "glauch. mergels, mergel zanden & zandst",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MDoB1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdob1",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MDoB1",
+            "prefLabel": "groen kalkrijk zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MDoB2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdob2",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MDoB2",
+            "prefLabel": "grijsgroene mergel",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MDoOv",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdoov",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MDoOv",
+            "prefLabel": "Compact, grijsgroen, zandig krijt met gl",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MDoZe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdoze",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MDoZe",
+            "prefLabel": "grijsgroen, mergelige zand(steen)",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:ME",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.me",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "ME",
+            "prefLabel": "maasafzettingen, grind",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MEs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mes",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MEs",
+            "prefLabel": "Krijt en mergel",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MGu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mgu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MGu",
+            "prefLabel": "calcilutiet tot kalkareniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MGuBe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mgube",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MGuBe",
+            "prefLabel": "witgeel mergel",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MGuLa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mgula",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MGuLa",
+            "prefLabel": "calcilutiet tot kalkareniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MGuLi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mguli",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MGuLi",
+            "prefLabel": "calcilutiet en silexbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MGuVi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mguvi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MGuVi",
+            "prefLabel": "grijswit krijt en silexbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MGuZe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mguze",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MGuZe",
+            "prefLabel": "wit tot bleekgeel krijt",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MHa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mha",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MHa",
+            "prefLabel": "zandsteen, kleisteen en conglomeraat",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MJU",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mju",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MJU",
+            "prefLabel": "TO DO",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MKR",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mkr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MKR",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MKe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mke",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MKe",
+            "prefLabel": "kleisteen, dolom. mergel, anhydr/gips",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MKu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mku",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MKu",
+            "prefLabel": "kalkareniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mma",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMa",
+            "prefLabel": "bleke kalkareniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMaEm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmaem",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMaEm",
+            "prefLabel": "TO DO",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMaGr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmagr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMaGr",
+            "prefLabel": "TO DO",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMaKu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmaku",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMaKu",
+            "prefLabel": "bleke kalkareniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMaMe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmame",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMaMe",
+            "prefLabel": "TO DO",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMaNe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmane",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMaNe",
+            "prefLabel": "TO DO",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMaVa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmava",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMaVa",
+            "prefLabel": "kalkareniet, silex",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mms",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMs",
+            "prefLabel": "Krijt",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMu",
+            "prefLabel": "muschelkalk",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMuAn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmuan",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMuAn",
+            "prefLabel": "onzuiver kalksteen en dolomiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMuHa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmuha",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMuHa",
+            "prefLabel": "mergels en kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MMuWe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmuwe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MMuWe",
+            "prefLabel": "kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MNe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mne",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MNe",
+            "prefLabel": "Krijt",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MNeSt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mnest",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MNeSt",
+            "prefLabel": "TO DO",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MNeWa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mnewa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MNeWa",
+            "prefLabel": "TO DO",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MRo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mro",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MRo",
+            "prefLabel": "klei- en siltsteen, anhydriet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MSl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.msl",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MSl",
+            "prefLabel": "grijze kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MVa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mva",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MVa",
+            "prefLabel": "mergelige zanden/zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MVaBG",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mvabg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MVaBG",
+            "prefLabel": "grijsgroen glauc. mergelig zand en silt",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MVaOG",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mvaog",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MVaOG",
+            "prefLabel": "grijsgroen glauconieth. zand en silt",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MVg",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mvg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MVg",
+            "prefLabel": "Mergel",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ma",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ma",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ma",
+            "prefLabel": "klei/zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MaAs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maas",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MaAs",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MaBu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mabu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MaBu",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MaOd",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maod",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MaOd",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MaOn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maon",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MaOn",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MaUr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maur",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MaUr",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MaWe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mawe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MaWe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MaZo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mazo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MaZo",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Mb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mb",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Mb",
+            "prefLabel": "zand/grind met klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Me",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.me",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Me",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MeB",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.meb",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MeB",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ml",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ml",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ml",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MlDo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mldo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MlDo",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MlMa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mlma",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MlMa",
+            "prefLabel": "ligniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MlMh",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mlmh",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MlMh",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MlRe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mlre",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MlRe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:MlRu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mlru",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "MlRu",
+            "prefLabel": "ligniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Mo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Mo",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Mp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mp",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Mp",
+            "prefLabel": "kleiig micahoudend zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Mx",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mx",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Mx",
+            "prefLabel": "veen met leem/zand/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:My",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.my",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "My",
+            "prefLabel": "zand en klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ne",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ne",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ne",
+            "prefLabel": "zand, klei, ligniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Op",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.op",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Op",
+            "prefLabel": "klei/zand/kalkareniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:OpEi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.opei",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "OpEi",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:OpMa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.opma",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "OpMa",
+            "prefLabel": "kalkareniet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:OpOp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.opop",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "OpOp",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Or",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.or",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Or",
+            "prefLabel": "zandsteen, kwartsiet, kleisteen, schalie en schist",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ot",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ot",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ot",
+            "prefLabel": "zand/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ow",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ow",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ow",
+            "prefLabel": "zand/leem/veen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:P",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.p",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "P",
+            "prefLabel": "rots",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:P1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.p1",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "P1",
+            "prefLabel": "rots",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:P2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.p2",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "P2",
+            "prefLabel": "rots",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PAi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pai",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PAi",
+            "prefLabel": "kalksteen/schiefers/dolomiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PAl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pal",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PAl",
+            "prefLabel": "kleisteen, kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PAn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pan",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PAn",
+            "prefLabel": "schiefer, zandsteen, koollagen en kalksteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PAt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pat",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PAt",
+            "prefLabel": "kalksteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PAtGa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.patga",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PAtGa",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PAtWa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.patwa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PAtWa",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PAv",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pav",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PAv",
+            "prefLabel": "zandsteen tot kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBe",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBg",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBg",
+            "prefLabel": "schalie en kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBi",
+            "prefLabel": "conglom., zandsteen , schiefer",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbl",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBl",
+            "prefLabel": "kwartsiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbn",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBn",
+            "prefLabel": "micarijke kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBnXa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbnxa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBnXa",
+            "prefLabel": "zwarte schalie",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBnXb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbnxb",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBnXb",
+            "prefLabel": "micarijke siltsteen en kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBnXc",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbnxc",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBnXc",
+            "prefLabel": "kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBo",
+            "prefLabel": "kleisteen, kalksteen, silt- en zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbp",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBp",
+            "prefLabel": "schalie of leisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBr",
+            "prefLabel": "kleisteen en leisteen en vulkanische gesteenten",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PBv",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbv",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PBv",
+            "prefLabel": "conglom. , zand en siltsteen en kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PC",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pc",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PC",
+            "prefLabel": "zandig pakket met kalksteeninterc.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PCa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pca",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PCa",
+            "prefLabel": "siltsteen/schiefer/steenkool",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PCaFl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcafl",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PCaFl",
+            "prefLabel": "siltsteen/schiefer m steenkool en zandst",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PCaRa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcara",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PCaRa",
+            "prefLabel": "siltsteen/ schiefer m steenkool en zands",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PCe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pce",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PCe",
+            "prefLabel": "grijze silsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PCh",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pch",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PCh",
+            "prefLabel": "zandsteen/siltsteen/schiefer/steenkool",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PChAs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pchas",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PChAs",
+            "prefLabel": "siltsteen/steenkool m schiefer en zandst",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PChEi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pchei",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PChEi",
+            "prefLabel": "siltsteen/steenkool m schiefer en zandst",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PChMo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pchmo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PChMo",
+            "prefLabel": "schiefer/siltsteen/steenkool m zandst",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PCo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pco",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PCo",
+            "prefLabel": "kalkhoudende schiefers en ampeliet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PCoBo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcobo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PCoBo",
+            "prefLabel": "kalkhoudende schiefers en ampeliet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PCoTr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcotr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PCoTr",
+            "prefLabel": "kalkhoudende schiefers en ampeliet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PCr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PCr",
+            "prefLabel": "leist., kleist., siltst. en zandst.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PDe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pde",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PDe",
+            "prefLabel": "schalie",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PEt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pet",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PEt",
+            "prefLabel": "silt-kleisteenbanken, zandst.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PEv",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pev",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PEv",
+            "prefLabel": "schiefers, zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PF",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pf",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PF",
+            "prefLabel": "kleisteen, kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFa",
+            "prefLabel": "kleisteen en siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFf",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pff",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFf",
+            "prefLabel": "gespleten kleisteen en siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFi",
+            "prefLabel": "leisteen en kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFiPi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfipi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFiPi",
+            "prefLabel": "kristallijne tuff",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFiXa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFiXa",
+            "prefLabel": "leist., kleist., siltst. en zandst.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFiXb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixb",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFiXb",
+            "prefLabel": "kleisteen, siltsteen en zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFiXc",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixc",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFiXc",
+            "prefLabel": "leist., kleist., siltst., en zandst.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFiXd",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixd",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFiXd",
+            "prefLabel": "leisteen, kleisteen , siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFiXe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFiXe",
+            "prefLabel": "leist., kleist., siltst. en zandst.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfl",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFl",
+            "prefLabel": "zandsteen/siltsteen/steenkool",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFlMe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pflme",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFlMe",
+            "prefLabel": "zandsteen/siltsteen/steenkool",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFlNe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pflne",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFlNe",
+            "prefLabel": "zandsteen/siltsteen/steenkool",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFlWa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pflwa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFlWa",
+            "prefLabel": "zandsteen/siltsteen/steenkool",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFq",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfq",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFq",
+            "prefLabel": "afwisselend leist. en siltige leist.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFr",
+            "prefLabel": "schalie en dolomiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PFu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PFu",
+            "prefLabel": "leisteen, kleisteen, siltsteen, zandstn",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PG",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PG",
+            "prefLabel": "kalksteen met kleiinterval",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PGe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pge",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PGe",
+            "prefLabel": "kalkstenen en dolomiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PGo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pgo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PGo",
+            "prefLabel": "verkiezelde gesteenten",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.phe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHe",
+            "prefLabel": "klei- silt- kalksteen, mergel, conglom.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHeH1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh1",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHeH1",
+            "prefLabel": "conglomeraat",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHeH2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh2",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHeH2",
+            "prefLabel": "kalkrijke zandsteen, kleisteen en siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHeH3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh3",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHeH3",
+            "prefLabel": "grijze mergel",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHeH4",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh4",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHeH4",
+            "prefLabel": "zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHeH5",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh5",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHeH5",
+            "prefLabel": "kleisteen met siltsteen en zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.phi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHi",
+            "prefLabel": "kalksteen, dolomiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pho",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHo",
+            "prefLabel": "leisteen en fijne siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.phs",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHs",
+            "prefLabel": "crinoïdenkalksteenbanken",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PHu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.phu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PHu",
+            "prefLabel": "kleisteen, silsteen en zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PIt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pit",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PIt",
+            "prefLabel": "afw. zandsteen, siltsteen en kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PJo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pjo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PJo",
+            "prefLabel": "kwartsiet, zandsteen, leisteen en schalie",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PK",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pk",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PK",
+            "prefLabel": "kalkstenen en/of dolomiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PKe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pke",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PKe",
+            "prefLabel": "kalksteen/zandsteen/kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PLa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pla",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PLa",
+            "prefLabel": "crinoïdenkalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PLm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.plm",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PLm",
+            "prefLabel": "schiefer",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PLo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.plo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PLo",
+            "prefLabel": "wacke tot boundstone",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PLs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pls",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PLs",
+            "prefLabel": "schalie",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PLt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.plt",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PLt",
+            "prefLabel": "leisteen en fijne siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PLu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.plu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PLu",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pma",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMa",
+            "prefLabel": "schiefer, silt-zand-kalk-steen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMd",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmd",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMd",
+            "prefLabel": "vulkanische gesteente met afw. Siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMdXa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMdXa",
+            "prefLabel": "schalie en siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMdXb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxb",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMdXb",
+            "prefLabel": "siltst., zandst. en vulkanokl. congl.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMdXc",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxc",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMdXc",
+            "prefLabel": "schalie",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMdXd",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxd",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMdXd",
+            "prefLabel": "groffe siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMdXe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMdXe",
+            "prefLabel": "schalie",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMdXf",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxf",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMdXf",
+            "prefLabel": "daciet en breccia",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMdXg",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMdXg",
+            "prefLabel": "siltige schalie",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmn",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMn",
+            "prefLabel": "psammieten en zandstenen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMo",
+            "prefLabel": "schalie of leisteen, soms kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMoFr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmofr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMoFr",
+            "prefLabel": "schalie of leisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMoTa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmota",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMoTa",
+            "prefLabel": "schalie of leisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMoXx",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmoxx",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMoXx",
+            "prefLabel": "schalie of leisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PMu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PMu",
+            "prefLabel": "conglomeraat",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PNe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pne",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PNe",
+            "prefLabel": "grove zandstenen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:POD",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pod",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "POD",
+            "prefLabel": "Gesteenten afgezet tijdens het Ordovicium",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:POr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.por",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "POr",
+            "prefLabel": "schalie en kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:POs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pos",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "POs",
+            "prefLabel": "kleisteen/leisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:POsAs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.posas",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "POsAs",
+            "prefLabel": "leisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:POsRi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.posri",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "POsRi",
+            "prefLabel": "leisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PPe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ppe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PPe",
+            "prefLabel": "kalksteen/dolomiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PPo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ppo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PPo",
+            "prefLabel": "schiefer",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PPr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ppr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PPr",
+            "prefLabel": "kalksteen en/of dolom., kleistenen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PPt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ppt",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PPt",
+            "prefLabel": "fyllade",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PRh",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.prh",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PRh",
+            "prefLabel": "kalkstenen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PRi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pri",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PRi",
+            "prefLabel": "leisteen of kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PRk",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.prk",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PRk",
+            "prefLabel": "siltige en kleiige schalie",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PRn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.prn",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PRn",
+            "prefLabel": "turbudieten met leisteen en kleisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PSa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.psa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PSa",
+            "prefLabel": "zand- en siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PSaBo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.psabo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PSaBo",
+            "prefLabel": "conglom., zandst, siltst, kleist.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PSaFe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.psafe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PSaFe",
+            "prefLabel": "kalsteen en kalksteenbreccie",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PSaMe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.psame",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PSaMe",
+            "prefLabel": "gedolom. Zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PSe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pse",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PSe",
+            "prefLabel": "gespleten kleisteen en siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PSo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pso",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PSo",
+            "prefLabel": "kalkstenen, dolomieten en schiefers",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PSt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pst",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PSt",
+            "prefLabel": "kalksteen/dolomiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PTo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pto",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PTo",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PToAl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptoal",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PToAl",
+            "prefLabel": "crinoïdenkalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PToCr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptocr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PToCr",
+            "prefLabel": "crinoïdenkalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PToPo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptopo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PToPo",
+            "prefLabel": "crinoïdenkalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PToPr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptopr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PToPr",
+            "prefLabel": "crinoïdenkalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PToVa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptova",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PToVa",
+            "prefLabel": "crinoïdenkalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PToVi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptovi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PToVi",
+            "prefLabel": "crinoïdenkalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PTr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PTr",
+            "prefLabel": "kleiige zandsteen en siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PTu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PTu",
+            "prefLabel": "kleisteen/silsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PTuFo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptufo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PTuFo",
+            "prefLabel": "leisteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PTuRo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pturo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PTuRo",
+            "prefLabel": "zandsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PTuXx",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptuxx",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PTuXx",
+            "prefLabel": "leisteen, siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PVa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pva",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PVa",
+            "prefLabel": "leist., kleist., siltst. en zandst.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PVc",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pvc",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PVc",
+            "prefLabel": "leisteen, kleisteen, siltsteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PVe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pve",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PVe",
+            "prefLabel": "dolomiet",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PVi",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pvi",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PVi",
+            "prefLabel": "kalksteen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PVl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pvl",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PVl",
+            "prefLabel": "wacke tot grainstone",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PVs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pvs",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PVs",
+            "prefLabel": "leist., kleist., siltst. en zandst.",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Pa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Pa",
+            "prefLabel": "Sedimenten afgezet tijdens het Paleogeen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Pd",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pd",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Pd",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:PdHe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pdhe",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "PdHe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Q",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.q",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Q",
+            "prefLabel": "divers",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:QH",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.qh",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "QH",
+            "prefLabel": "divers",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:QP",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.qp",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "QP",
+            "prefLabel": "divers",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:RO",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ro",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "RO",
+            "prefLabel": "loess",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:RU",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ru",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "RU",
+            "prefLabel": "klei, silt en zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Rb",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.rb",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Rb",
+            "prefLabel": "kleiig-zandig grind",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:S",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.s",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "S",
+            "prefLabel": "vaste gesteenten",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:SC",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.sc",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "SC",
+            "prefLabel": "fluviatiele afzettingen, Schelde en Ijzer",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Sh",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.sh",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Sh",
+            "prefLabel": "zand/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:ShGr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.shgr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "ShGr",
+            "prefLabel": "(zandh) klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:ShNe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.shne",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "ShNe",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Si",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.si",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Si",
+            "prefLabel": "zandsteen, kwartsiet, kleisteen, schalie en schist",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Sk",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.sk",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Sk",
+            "prefLabel": "grind / silt",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:St",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.st",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "St",
+            "prefLabel": "grind",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:StBo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.stbo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "StBo",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:StHa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.stha",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "StHa",
+            "prefLabel": "grind en grof zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:StLo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.stlo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "StLo",
+            "prefLabel": "grind en grof zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:T",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.t",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "T",
+            "prefLabel": "divers",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:TO",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.to",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "TO",
+            "prefLabel": "zand/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:TR",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tr",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "TR",
+            "prefLabel": "Gesteenten afgezet tijdens het Trias",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ti",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ti",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ti",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:TiDo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tido",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "TiDo",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:TiEr",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tier",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "TiEr",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:TiKn",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tikn",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "TiKn",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:TiLo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tilo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "TiLo",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Tt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tt",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Tt",
+            "prefLabel": "zand/silt",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:TtEg",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tteg",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "TtEg",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:TtEk",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ttek",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "TtEk",
+            "prefLabel": "zware klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:TtKo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ttko",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "TtKo",
+            "prefLabel": "silt",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:U",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.u",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "U",
+            "prefLabel": "onbekend",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Ve",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ve",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Ve",
+            "prefLabel": "loess",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Vl",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vl",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Vl",
+            "prefLabel": "fijn getijdenzand, waddenzand, klei en veen",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:VlCa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vlca",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "VlCa",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:VlDh",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vldh",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "VlDh",
+            "prefLabel": "schelprijk zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:VlDu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vldu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "VlDu",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Vo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Vo",
+            "prefLabel": "zand/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:VoSo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.voso",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "VoSo",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:VoVe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vove",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "VoVe",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:VoVo",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vovo",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "VoVo",
+            "prefLabel": "zand en klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:We",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.we",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "We",
+            "prefLabel": "zand/klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:WeBs",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.webs",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "WeBs",
+            "prefLabel": "zandige eenheid, met veenlagen en cryoturbaties",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:WeRv",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.werv",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "WeRv",
+            "prefLabel": "klei/zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:WeTu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.wetu",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "WeTu",
+            "prefLabel": "klei/zand met bodemhorizonten",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:ZE",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ze",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "ZE",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Zd",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zd",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Zd",
+            "prefLabel": "grind",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:Zz",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zz",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "Zz",
+            "prefLabel": "klei/zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:ZzBa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zzba",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "ZzBa",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:ZzRu",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zzru",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "ZzRu",
+            "prefLabel": "zand",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "concept:ZzWa",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zzwa",
+            "inScheme": "conceptscheme:formeleeenheid",
+            "notation": "ZzWa",
+            "prefLabel": "klei",
+            "topConceptOf": "conceptscheme:formeleeenheid"
+        },
+        {
+            "id": "conceptscheme:formeleeenheid",
+            "type": "skos:ConceptScheme",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.formeleeenheid",
+            "hasTopConcept": [
+                "concept:A",
+                "concept:Aa",
+                "concept:AaBe",
+                "concept:AaOe",
+                "concept:Ab",
+                "concept:Ag",
+                "concept:Bb",
+                "concept:BbGe",
+                "concept:BbHo",
+                "concept:BbOp",
+                "concept:Bc",
+                "concept:BcAn",
+                "concept:BcEd",
+                "concept:BcKi",
+                "concept:BcZo",
+                "concept:Be",
+                "concept:Bi",
+                "concept:BiBe",
+                "concept:BiKe",
+                "concept:BiKs",
+                "concept:Bm",
+                "concept:BmBt",
+                "concept:BmBw",
+                "concept:BmPu",
+                "concept:BmTe",
+                "concept:Bo",
+                "concept:BoBt",
+                "concept:BoHe",
+                "concept:BoKe",
+                "concept:BoOb",
+                "concept:Br",
+                "concept:BrAr",
+                "concept:BrBh",
+                "concept:BrCg",
+                "concept:BrDi",
+                "concept:BrKr",
+                "concept:BrNe",
+                "concept:Bs",
+                "concept:BsAk",
+                "concept:BsHd",
+                "concept:BsSv",
+                "concept:BsVs",
+                "concept:Ca",
+                "concept:CaDi",
+                "concept:CaNa",
+                "concept:CaWe",
+                "concept:Ci",
+                "concept:Cm",
+                "concept:De",
+                "concept:Di",
+                "concept:DiDe",
+                "concept:DiDn",
+                "concept:Eg",
+                "concept:El",
+                "concept:FX",
+                "concept:G",
+                "concept:Ge",
+                "concept:GeAb",
+                "concept:GeHg",
+                "concept:GeHo",
+                "concept:GeKw",
+                "concept:GeMe",
+                "concept:GePi",
+                "concept:GeVl",
+                "concept:Gm",
+                "concept:Gt",
+                "concept:GtAb",
+                "concept:GtDi",
+                "concept:GtDp",
+                "concept:GtOg",
+                "concept:GtTi",
+                "concept:HP",
+                "concept:Ha",
+                "concept:Hn",
+                "concept:HnBe",
+                "concept:HnCh",
+                "concept:HnGr",
+                "concept:HnHa",
+                "concept:HnLi",
+                "concept:HnWa",
+                "concept:Ho",
+                "concept:Hs",
+                "concept:HsGe",
+                "concept:HsMa",
+                "concept:HsOr",
+                "concept:Hy",
+                "concept:HyBo",
+                "concept:HyEg",
+                "concept:HyMo",
+                "concept:Hz",
+                "concept:IE",
+                "concept:KRWe",
+                "concept:Kd",
+                "concept:Ke",
+                "concept:Kh",
+                "concept:Kl",
+                "concept:Ko",
+                "concept:KoAa",
+                "concept:KoMh",
+                "concept:KoMo",
+                "concept:KoMp",
+                "concept:KoOl",
+                "concept:KoOm",
+                "concept:KoOr",
+                "concept:KoOu",
+                "concept:KoRo",
+                "concept:KoSm",
+                "concept:KoZo",
+                "concept:Kz",
+                "concept:KzB1",
+                "concept:KzB2",
+                "concept:KzBr",
+                "concept:KzJa",
+                "concept:KzPe",
+                "concept:KzWb",
+                "concept:KzX",
+                "concept:LA",
+                "concept:Ld",
+                "concept:Li",
+                "concept:LiKr",
+                "concept:LiLu",
+                "concept:LiMe",
+                "concept:LiOo",
+                "concept:LiX",
+                "concept:LiZa",
+                "concept:Lk",
+                "concept:Ln",
+                "concept:MA",
+                "concept:MAa",
+                "concept:MAk",
+                "concept:MAkAa",
+                "concept:MAkHe",
+                "concept:MBe",
+                "concept:MBu",
+                "concept:MBuBr",
+                "concept:MBuBu",
+                "concept:MBuGr",
+                "concept:MDo",
+                "concept:MDoB1",
+                "concept:MDoB2",
+                "concept:MDoOv",
+                "concept:MDoZe",
+                "concept:ME",
+                "concept:MEs",
+                "concept:MGu",
+                "concept:MGuBe",
+                "concept:MGuLa",
+                "concept:MGuLi",
+                "concept:MGuVi",
+                "concept:MGuZe",
+                "concept:MHa",
+                "concept:MJU",
+                "concept:MKR",
+                "concept:MKe",
+                "concept:MKu",
+                "concept:MMa",
+                "concept:MMaEm",
+                "concept:MMaGr",
+                "concept:MMaKu",
+                "concept:MMaMe",
+                "concept:MMaNe",
+                "concept:MMaVa",
+                "concept:MMs",
+                "concept:MMu",
+                "concept:MMuAn",
+                "concept:MMuHa",
+                "concept:MMuWe",
+                "concept:MNe",
+                "concept:MNeSt",
+                "concept:MNeWa",
+                "concept:MRo",
+                "concept:MSl",
+                "concept:MVa",
+                "concept:MVaBG",
+                "concept:MVaOG",
+                "concept:MVg",
+                "concept:Ma",
+                "concept:MaAs",
+                "concept:MaBu",
+                "concept:MaOd",
+                "concept:MaOn",
+                "concept:MaUr",
+                "concept:MaWe",
+                "concept:MaZo",
+                "concept:Mb",
+                "concept:Me",
+                "concept:MeB",
+                "concept:Ml",
+                "concept:MlDo",
+                "concept:MlMa",
+                "concept:MlMh",
+                "concept:MlRe",
+                "concept:MlRu",
+                "concept:Mo",
+                "concept:Mp",
+                "concept:Mx",
+                "concept:My",
+                "concept:Ne",
+                "concept:Op",
+                "concept:OpEi",
+                "concept:OpMa",
+                "concept:OpOp",
+                "concept:Or",
+                "concept:Ot",
+                "concept:Ow",
+                "concept:P1",
+                "concept:P2",
+                "concept:P",
+                "concept:PAi",
+                "concept:PAl",
+                "concept:PAn",
+                "concept:PAt",
+                "concept:PAtGa",
+                "concept:PAtWa",
+                "concept:PAv",
+                "concept:PBe",
+                "concept:PBg",
+                "concept:PBi",
+                "concept:PBl",
+                "concept:PBn",
+                "concept:PBnXa",
+                "concept:PBnXb",
+                "concept:PBnXc",
+                "concept:PBo",
+                "concept:PBp",
+                "concept:PBr",
+                "concept:PBv",
+                "concept:PC",
+                "concept:PCa",
+                "concept:PCaFl",
+                "concept:PCaRa",
+                "concept:PCe",
+                "concept:PCh",
+                "concept:PChAs",
+                "concept:PChEi",
+                "concept:PChMo",
+                "concept:PCo",
+                "concept:PCoBo",
+                "concept:PCoTr",
+                "concept:PCr",
+                "concept:PDe",
+                "concept:PEt",
+                "concept:PEv",
+                "concept:PF",
+                "concept:PFa",
+                "concept:PFf",
+                "concept:PFi",
+                "concept:PFiPi",
+                "concept:PFiXa",
+                "concept:PFiXb",
+                "concept:PFiXc",
+                "concept:PFiXd",
+                "concept:PFiXe",
+                "concept:PFl",
+                "concept:PFlMe",
+                "concept:PFlNe",
+                "concept:PFlWa",
+                "concept:PFq",
+                "concept:PFr",
+                "concept:PFu",
+                "concept:PG",
+                "concept:PGe",
+                "concept:PGo",
+                "concept:PHe",
+                "concept:PHeH1",
+                "concept:PHeH2",
+                "concept:PHeH3",
+                "concept:PHeH4",
+                "concept:PHeH5",
+                "concept:PHi",
+                "concept:PHo",
+                "concept:PHs",
+                "concept:PHu",
+                "concept:PIt",
+                "concept:PJo",
+                "concept:PK",
+                "concept:PKe",
+                "concept:PLa",
+                "concept:PLm",
+                "concept:PLo",
+                "concept:PLs",
+                "concept:PLt",
+                "concept:PLu",
+                "concept:PMa",
+                "concept:PMd",
+                "concept:PMdXa",
+                "concept:PMdXb",
+                "concept:PMdXc",
+                "concept:PMdXd",
+                "concept:PMdXe",
+                "concept:PMdXf",
+                "concept:PMdXg",
+                "concept:PMn",
+                "concept:PMo",
+                "concept:PMoFr",
+                "concept:PMoTa",
+                "concept:PMoXx",
+                "concept:PMu",
+                "concept:PNe",
+                "concept:POD",
+                "concept:POr",
+                "concept:POs",
+                "concept:POsAs",
+                "concept:POsRi",
+                "concept:PPe",
+                "concept:PPo",
+                "concept:PPr",
+                "concept:PPt",
+                "concept:PRh",
+                "concept:PRi",
+                "concept:PRk",
+                "concept:PRn",
+                "concept:PSa",
+                "concept:PSaBo",
+                "concept:PSaFe",
+                "concept:PSaMe",
+                "concept:PSe",
+                "concept:PSo",
+                "concept:PSt",
+                "concept:PTo",
+                "concept:PToAl",
+                "concept:PToCr",
+                "concept:PToPo",
+                "concept:PToPr",
+                "concept:PToVa",
+                "concept:PToVi",
+                "concept:PTr",
+                "concept:PTu",
+                "concept:PTuFo",
+                "concept:PTuRo",
+                "concept:PTuXx",
+                "concept:PVa",
+                "concept:PVc",
+                "concept:PVe",
+                "concept:PVi",
+                "concept:PVl",
+                "concept:PVs",
+                "concept:Pa",
+                "concept:Pd",
+                "concept:PdHe",
+                "concept:Q",
+                "concept:QH",
+                "concept:QP",
+                "concept:RO",
+                "concept:RU",
+                "concept:Rb",
+                "concept:S",
+                "concept:SC",
+                "concept:Sh",
+                "concept:ShGr",
+                "concept:ShNe",
+                "concept:Si",
+                "concept:Sk",
+                "concept:St",
+                "concept:StBo",
+                "concept:StHa",
+                "concept:StLo",
+                "concept:T",
+                "concept:TO",
+                "concept:TR",
+                "concept:Ti",
+                "concept:TiDo",
+                "concept:TiEr",
+                "concept:TiKn",
+                "concept:TiLo",
+                "concept:Tt",
+                "concept:TtEg",
+                "concept:TtEk",
+                "concept:TtKo",
+                "concept:U",
+                "concept:Ve",
+                "concept:Vl",
+                "concept:VlCa",
+                "concept:VlDh",
+                "concept:VlDu",
+                "concept:Vo",
+                "concept:VoSo",
+                "concept:VoVe",
+                "concept:VoVo",
+                "concept:We",
+                "concept:WeBs",
+                "concept:WeRv",
+                "concept:WeTu",
+                "concept:ZE",
+                "concept:Zd",
+                "concept:Zz",
+                "concept:ZzBa",
+                "concept:ZzRu",
+                "concept:ZzWa"
+            ],
+            "prefLabel": "Lijst van formele eenheden i.v.m. bodem en ondergrond."
+        }
+    ]
+}

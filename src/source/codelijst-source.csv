@@ -1,0 +1,392 @@
+uri,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+collectie:formeleeenheden,be.vlaanderen.bodemenondergrond.data.id.collection.formeleeenheid.formeleeenheden,,,Collectie van formeleeenheden.,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,
+A,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.a,collectie:formeleeenheden,A,Menselijke verstoring,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Aa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.aa,collectie:formeleeenheden,Aa,zand/zandh. Klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+AaBe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.aabe,collectie:formeleeenheden,AaBe,zandh. Klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+AaOe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.aaoe,collectie:formeleeenheden,AaOe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ab,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ab,collectie:formeleeenheden,Ab,"organisch siliciklastisch sediment, tufa, veen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ag,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ag,collectie:formeleeenheden,Ag,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Bb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bb,collectie:formeleeenheden,Bb,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BbGe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bbge,collectie:formeleeenheden,BbGe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BbHo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bbho,collectie:formeleeenheden,BbHo,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BbOp,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bbop,collectie:formeleeenheden,BbOp,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Bc,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bc,collectie:formeleeenheden,Bc,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BcAn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bcan,collectie:formeleeenheden,BcAn,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BcEd,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bced,collectie:formeleeenheden,BcEd,grind,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BcKi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bcki,collectie:formeleeenheden,BcKi,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BcZo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bczo,collectie:formeleeenheden,BcZo,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Be,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.be,collectie:formeleeenheden,Be,"smectiet klei, glauconiethoudende zanden, mergel",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Bi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bi,collectie:formeleeenheden,Bi,zand/klei/zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BiBe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bibe,collectie:formeleeenheden,BiBe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BiKe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bike,collectie:formeleeenheden,BiKe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BiKs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.biks,collectie:formeleeenheden,BiKs,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Bm,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bm,collectie:formeleeenheden,Bm,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BmBt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bmbt,collectie:formeleeenheden,BmBt,silt,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BmBw,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bmbw,collectie:formeleeenheden,BmBw,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BmPu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bmpu,collectie:formeleeenheden,BmPu,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BmTe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bmte,collectie:formeleeenheden,BmTe,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Bo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bo,collectie:formeleeenheden,Bo,zand/klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BoBt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bobt,collectie:formeleeenheden,BoBt,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BoHe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bohe,collectie:formeleeenheden,BoHe,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BoKe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.boke,collectie:formeleeenheden,BoKe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BoOb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.boob,collectie:formeleeenheden,BoOb,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Br,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.br,collectie:formeleeenheden,Br,zand+kalkzandsteenbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BrAr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brar,collectie:formeleeenheden,BrAr,zand+kalkzandsteenbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BrBh,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brbh,collectie:formeleeenheden,BrBh,zand+kalkzandsteenbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BrCg,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brcg,collectie:formeleeenheden,BrCg,zand+kalkzandsteenbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BrDi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brdi,collectie:formeleeenheden,BrDi,zand+kalkzandsteenbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BrKr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brkr,collectie:formeleeenheden,BrKr,zand+kalkzandsteenbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BrNe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.brne,collectie:formeleeenheden,BrNe,zand+kalkzandsteenbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Bs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bs,collectie:formeleeenheden,Bs,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BsAk,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bsak,collectie:formeleeenheden,BsAk,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BsHd,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bshd,collectie:formeleeenheden,BsHd,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BsSv,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bssv,collectie:formeleeenheden,BsSv,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+BsVs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.bsvs,collectie:formeleeenheden,BsVs,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ca,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ca,collectie:formeleeenheden,Ca,Gesteenten afgezet tijdens het Carboon,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+CaDi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.cadi,collectie:formeleeenheden,CaDi,Kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+CaNa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.cana,collectie:formeleeenheden,CaNa,kleisteen en zandsteen met steenkool en kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+CaWe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.cawe,collectie:formeleeenheden,CaWe,"zandsteen met steenkool, kleisteen en conglomeraat",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ci,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ci,collectie:formeleeenheden,Ci,Kalkareniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Cm,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.cm,collectie:formeleeenheden,Cm,"zandsteen, kwartsiet, kleisteen, schalie en schist",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+De,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.de,collectie:formeleeenheden,De,zandsteen met kleisteen en kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Di,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.di,collectie:formeleeenheden,Di,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+DiDe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.dide,collectie:formeleeenheden,DiDe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+DiDn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.didn,collectie:formeleeenheden,DiDn,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Eg,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.eg,collectie:formeleeenheden,Eg,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+El,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.el,collectie:formeleeenheden,El,fluviatiele en periglaciale invulling,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+FX,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.fx,collectie:formeleeenheden,FX,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+G,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.g,collectie:formeleeenheden,G,geroerd/verstoord,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ge,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ge,collectie:formeleeenheden,Ge,zand/kleih zand/klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GeAb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.geab,collectie:formeleeenheden,GeAb,klei en zand met ligniet en hout,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GeHg,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gehg,collectie:formeleeenheden,GeHg,zandsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GeHo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.geho,collectie:formeleeenheden,GeHo,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GeKw,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gekw,collectie:formeleeenheden,GeKw,afwisseling zand en zandige klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GeMe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.geme,collectie:formeleeenheden,GeMe,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GePi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gepi,collectie:formeleeenheden,GePi,kleih zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GeVl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gevl,collectie:formeleeenheden,GeVl,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Gm,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gm,collectie:formeleeenheden,Gm,loess,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Gt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gt,collectie:formeleeenheden,Gt,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GtAb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtab,collectie:formeleeenheden,GtAb,fijn zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GtDi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtdi,collectie:formeleeenheden,GtDi,siltig zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GtDp,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtdp,collectie:formeleeenheden,GtDp,fijn zand met venige lagen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GtOg,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtog,collectie:formeleeenheden,GtOg,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+GtTi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.gtti,collectie:formeleeenheden,GtTi,silt/zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ha,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ha,collectie:formeleeenheden,Ha,mergel/klei/kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Hn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hn,collectie:formeleeenheden,Hn,"zand/tufsteen, kleihoudende leem, kalksteen/klei",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HnBe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnbe,collectie:formeleeenheden,HnBe,klei/zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HnCh,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnch,collectie:formeleeenheden,HnCh,tufsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HnGr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hngr,collectie:formeleeenheden,HnGr,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HnHa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnha,collectie:formeleeenheden,HnHa,kleih leem,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HnLi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnli,collectie:formeleeenheden,HnLi,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HnWa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hnwa,collectie:formeleeenheden,HnWa,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ho,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ho,collectie:formeleeenheden,Ho,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HP,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hp,collectie:formeleeenheden,HP,kalksteen/kalkareniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Hs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hs,collectie:formeleeenheden,Hs,mergel/zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HsGe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hsge,collectie:formeleeenheden,HsGe,mergel,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HsMa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hsma,collectie:formeleeenheden,HsMa,mergel,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HsOr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hsor,collectie:formeleeenheden,HsOr,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Hy,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hy,collectie:formeleeenheden,Hy,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HyBo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hybo,collectie:formeleeenheden,HyBo,"glauconiethoudend, fijn tot medium zand",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HyEg,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hyeg,collectie:formeleeenheden,HyEg,fijn zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+HyMo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hymo,collectie:formeleeenheden,HyMo,kleiig fijn zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Hz,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.hz,collectie:formeleeenheden,Hz,zand/klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+IE,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ie,collectie:formeleeenheden,IE,klei en zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Kd,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kd,collectie:formeleeenheden,Kd,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ke,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ke,collectie:formeleeenheden,Ke,zand / klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Kh,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kh,collectie:formeleeenheden,Kh,zand / grind,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Kl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kl,collectie:formeleeenheden,Kl,kleih zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ko,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ko,collectie:formeleeenheden,Ko,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoAa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koaa,collectie:formeleeenheden,KoAa,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoMh,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.komh,collectie:formeleeenheden,KoMh,kleiig zand en zandige klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoMo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.komo,collectie:formeleeenheden,KoMo,zandh klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoMp,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.komp,collectie:formeleeenheden,KoMp,kleih zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoOl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kool,collectie:formeleeenheden,KoOl,zware blauwgrijze klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoOm,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koom,collectie:formeleeenheden,KoOm,zware blauwgrijze klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoOr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koor,collectie:formeleeenheden,KoOr,zware blauwgrijze klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoOu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koou,collectie:formeleeenheden,KoOu,zware blauwgrijze klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoRo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.koro,collectie:formeleeenheden,KoRo,"siltig tot fijn zandig, kalkhoudende klei",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoSm,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kosm,collectie:formeleeenheden,KoSm,stijve klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KoZo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kozo,collectie:formeleeenheden,KoZo,siltige tot zandige klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KRWe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.krwe,collectie:formeleeenheden,KRWe,TO DO,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Kz,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kz,collectie:formeleeenheden,Kz,kiezelooliet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KzB1,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzb1,collectie:formeleeenheden,KzB1,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KzB2,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzb2,collectie:formeleeenheden,KzB2,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KzBr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzbr,collectie:formeleeenheden,KzBr,klei- en zand-intercalatie met ligniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KzJa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzja,collectie:formeleeenheden,KzJa,kiezelooliet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KzPe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzpe,collectie:formeleeenheden,KzPe,kiezelooliet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KzWb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzwb,collectie:formeleeenheden,KzWb,kiezelooliet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+KzX,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.kzx,collectie:formeleeenheden,KzX,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+LA,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.la,collectie:formeleeenheden,LA,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ld,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ld,collectie:formeleeenheden,Ld,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Li,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.li,collectie:formeleeenheden,Li,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+LiKr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.likr,collectie:formeleeenheden,LiKr,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+LiLu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lilu,collectie:formeleeenheden,LiLu,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+LiMe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lime,collectie:formeleeenheden,LiMe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+LiOo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lioo,collectie:formeleeenheden,LiOo,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+LiX,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lix,collectie:formeleeenheden,LiX,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+LiZa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.liza,collectie:formeleeenheden,LiZa,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Lk,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.lk,collectie:formeleeenheden,Lk,grind,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ln,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ln,collectie:formeleeenheden,Ln,grind,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ma,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ma,collectie:formeleeenheden,Ma,klei/zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MA,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ma,collectie:formeleeenheden,MA,zand en grind,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MAa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maa,collectie:formeleeenheden,MAa,"kalkhoudende, dgrijze kleisteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MaAs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maas,collectie:formeleeenheden,MaAs,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MaBu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mabu,collectie:formeleeenheden,MaBu,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MAk,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mak,collectie:formeleeenheden,MAk,"zand, klei, ligniet",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MAkAa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.makaa,collectie:formeleeenheden,MAkAa,gelige zanden,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MAkHe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.makhe,collectie:formeleeenheden,MAkHe,"afz v zand, silt en klei",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MaOd,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maod,collectie:formeleeenheden,MaOd,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MaOn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maon,collectie:formeleeenheden,MaOn,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MaUr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.maur,collectie:formeleeenheden,MaUr,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MaWe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mawe,collectie:formeleeenheden,MaWe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MaZo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mazo,collectie:formeleeenheden,MaZo,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Mb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mb,collectie:formeleeenheden,Mb,zand/grind met klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MBe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbe,collectie:formeleeenheden,MBe,Krijt met mergel en zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MBu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbu,collectie:formeleeenheden,MBu,zandsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MBuBr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbubr,collectie:formeleeenheden,MBuBr,rode klei- tot zandsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MBuBu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbubu,collectie:formeleeenheden,MBuBu,rode zandsteen en conglomeraat,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MBuGr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mbugr,collectie:formeleeenheden,MBuGr,rode silt- tot zandsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MDo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdo,collectie:formeleeenheden,MDo,"glauch. mergels, mergel zanden & zandst",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MDoB1,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdob1,collectie:formeleeenheden,MDoB1,groen kalkrijk zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MDoB2,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdob2,collectie:formeleeenheden,MDoB2,grijsgroene mergel,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MDoOv,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdoov,collectie:formeleeenheden,MDoOv,"Compact, grijsgroen, zandig krijt met gl",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MDoZe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mdoze,collectie:formeleeenheden,MDoZe,"grijsgroen, mergelige zand(steen)",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Me,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.me,collectie:formeleeenheden,Me,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+ME,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.me,collectie:formeleeenheden,ME,"maasafzettingen, grind",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MeB,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.meb,collectie:formeleeenheden,MeB,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MEs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mes,collectie:formeleeenheden,MEs,Krijt en mergel,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MGu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mgu,collectie:formeleeenheden,MGu,calcilutiet tot kalkareniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MGuBe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mgube,collectie:formeleeenheden,MGuBe,witgeel mergel,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MGuLa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mgula,collectie:formeleeenheden,MGuLa,calcilutiet tot kalkareniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MGuLi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mguli,collectie:formeleeenheden,MGuLi,calcilutiet en silexbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MGuVi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mguvi,collectie:formeleeenheden,MGuVi,grijswit krijt en silexbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MGuZe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mguze,collectie:formeleeenheden,MGuZe,wit tot bleekgeel krijt,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MHa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mha,collectie:formeleeenheden,MHa,"zandsteen, kleisteen en conglomeraat",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MJU,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mju,collectie:formeleeenheden,MJU,TO DO,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MKe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mke,collectie:formeleeenheden,MKe,"kleisteen, dolom. mergel, anhydr/gips",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MKR,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mkr,collectie:formeleeenheden,MKR,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MKu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mku,collectie:formeleeenheden,MKu,kalkareniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ml,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ml,collectie:formeleeenheden,Ml,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MlDo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mldo,collectie:formeleeenheden,MlDo,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MlMa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mlma,collectie:formeleeenheden,MlMa,ligniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MlMh,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mlmh,collectie:formeleeenheden,MlMh,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MlRe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mlre,collectie:formeleeenheden,MlRe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MlRu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mlru,collectie:formeleeenheden,MlRu,ligniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mma,collectie:formeleeenheden,MMa,bleke kalkareniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMaEm,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmaem,collectie:formeleeenheden,MMaEm,TO DO,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMaGr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmagr,collectie:formeleeenheden,MMaGr,TO DO,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMaKu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmaku,collectie:formeleeenheden,MMaKu,bleke kalkareniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMaMe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmame,collectie:formeleeenheden,MMaMe,TO DO,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMaNe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmane,collectie:formeleeenheden,MMaNe,TO DO,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMaVa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmava,collectie:formeleeenheden,MMaVa,"kalkareniet, silex",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mms,collectie:formeleeenheden,MMs,Krijt,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmu,collectie:formeleeenheden,MMu,muschelkalk,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMuAn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmuan,collectie:formeleeenheden,MMuAn,onzuiver kalksteen en dolomiet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMuHa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmuha,collectie:formeleeenheden,MMuHa,mergels en kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MMuWe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mmuwe,collectie:formeleeenheden,MMuWe,kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MNe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mne,collectie:formeleeenheden,MNe,Krijt,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MNeSt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mnest,collectie:formeleeenheden,MNeSt,TO DO,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MNeWa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mnewa,collectie:formeleeenheden,MNeWa,TO DO,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Mo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mo,collectie:formeleeenheden,Mo,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Mp,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mp,collectie:formeleeenheden,Mp,kleiig micahoudend zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MRo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mro,collectie:formeleeenheden,MRo,"klei- en siltsteen, anhydriet",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MSl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.msl,collectie:formeleeenheden,MSl,grijze kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MVa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mva,collectie:formeleeenheden,MVa,mergelige zanden/zandsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MVaBG,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mvabg,collectie:formeleeenheden,MVaBG,grijsgroen glauc. mergelig zand en silt,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MVaOG,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mvaog,collectie:formeleeenheden,MVaOG,grijsgroen glauconieth. zand en silt,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+MVg,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mvg,collectie:formeleeenheden,MVg,Mergel,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Mx,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.mx,collectie:formeleeenheden,Mx,veen met leem/zand/klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+My,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.my,collectie:formeleeenheden,My,zand en klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ne,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ne,collectie:formeleeenheden,Ne,"zand, klei, ligniet",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Op,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.op,collectie:formeleeenheden,Op,klei/zand/kalkareniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+OpEi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.opei,collectie:formeleeenheden,OpEi,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+OpMa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.opma,collectie:formeleeenheden,OpMa,kalkareniet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+OpOp,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.opop,collectie:formeleeenheden,OpOp,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Or,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.or,collectie:formeleeenheden,Or,"zandsteen, kwartsiet, kleisteen, schalie en schist",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ot,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ot,collectie:formeleeenheden,Ot,zand/klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ow,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ow,collectie:formeleeenheden,Ow,zand/leem/veen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+P,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.p,collectie:formeleeenheden,P,rots,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+P1,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.p1,collectie:formeleeenheden,P1,rots,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+P2,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.p2,collectie:formeleeenheden,P2,rots,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Pa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pa,collectie:formeleeenheden,Pa,Sedimenten afgezet tijdens het Paleogeen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PAi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pai,collectie:formeleeenheden,PAi,kalksteen/schiefers/dolomiet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PAl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pal,collectie:formeleeenheden,PAl,"kleisteen, kalksteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PAn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pan,collectie:formeleeenheden,PAn,"schiefer, zandsteen, koollagen en kalksteenbanken",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PAt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pat,collectie:formeleeenheden,PAt,kalksteenbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PAtGa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.patga,collectie:formeleeenheden,PAtGa,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PAtWa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.patwa,collectie:formeleeenheden,PAtWa,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PAv,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pav,collectie:formeleeenheden,PAv,zandsteen tot kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbe,collectie:formeleeenheden,PBe,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBg,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbg,collectie:formeleeenheden,PBg,schalie en kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbi,collectie:formeleeenheden,PBi,"conglom., zandsteen , schiefer",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbl,collectie:formeleeenheden,PBl,kwartsiet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbn,collectie:formeleeenheden,PBn,micarijke kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBnXa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbnxa,collectie:formeleeenheden,PBnXa,zwarte schalie,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBnXb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbnxb,collectie:formeleeenheden,PBnXb,micarijke siltsteen en kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBnXc,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbnxc,collectie:formeleeenheden,PBnXc,kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbo,collectie:formeleeenheden,PBo,"kleisteen, kalksteen, silt- en zandsteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBp,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbp,collectie:formeleeenheden,PBp,schalie of leisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbr,collectie:formeleeenheden,PBr,kleisteen en leisteen en vulkanische gesteenten,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PBv,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pbv,collectie:formeleeenheden,PBv,"conglom. , zand en siltsteen en kalksteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PC,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pc,collectie:formeleeenheden,PC,zandig pakket met kalksteeninterc.,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PCa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pca,collectie:formeleeenheden,PCa,siltsteen/schiefer/steenkool,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PCaFl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcafl,collectie:formeleeenheden,PCaFl,siltsteen/schiefer m steenkool en zandst,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PCaRa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcara,collectie:formeleeenheden,PCaRa,siltsteen/ schiefer m steenkool en zands,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PCe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pce,collectie:formeleeenheden,PCe,grijze silsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PCh,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pch,collectie:formeleeenheden,PCh,zandsteen/siltsteen/schiefer/steenkool,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PChAs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pchas,collectie:formeleeenheden,PChAs,siltsteen/steenkool m schiefer en zandst,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PChEi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pchei,collectie:formeleeenheden,PChEi,siltsteen/steenkool m schiefer en zandst,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PChMo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pchmo,collectie:formeleeenheden,PChMo,schiefer/siltsteen/steenkool m zandst,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PCo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pco,collectie:formeleeenheden,PCo,kalkhoudende schiefers en ampeliet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PCoBo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcobo,collectie:formeleeenheden,PCoBo,kalkhoudende schiefers en ampeliet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PCoTr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcotr,collectie:formeleeenheden,PCoTr,kalkhoudende schiefers en ampeliet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PCr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pcr,collectie:formeleeenheden,PCr,"leist., kleist., siltst. en zandst.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Pd,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pd,collectie:formeleeenheden,Pd,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PDe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pde,collectie:formeleeenheden,PDe,schalie,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PdHe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pdhe,collectie:formeleeenheden,PdHe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PEt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pet,collectie:formeleeenheden,PEt,"silt-kleisteenbanken, zandst.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PEv,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pev,collectie:formeleeenheden,PEv,"schiefers, zandsteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PF,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pf,collectie:formeleeenheden,PF,"kleisteen, kalksteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfa,collectie:formeleeenheden,PFa,kleisteen en siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFf,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pff,collectie:formeleeenheden,PFf,gespleten kleisteen en siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfi,collectie:formeleeenheden,PFi,leisteen en kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFiPi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfipi,collectie:formeleeenheden,PFiPi,kristallijne tuff,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFiXa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixa,collectie:formeleeenheden,PFiXa,"leist., kleist., siltst. en zandst.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFiXb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixb,collectie:formeleeenheden,PFiXb,"kleisteen, siltsteen en zandsteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFiXc,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixc,collectie:formeleeenheden,PFiXc,"leist., kleist., siltst., en zandst.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFiXd,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixd,collectie:formeleeenheden,PFiXd,"leisteen, kleisteen , siltsteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFiXe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfixe,collectie:formeleeenheden,PFiXe,"leist., kleist., siltst. en zandst.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfl,collectie:formeleeenheden,PFl,zandsteen/siltsteen/steenkool,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFlMe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pflme,collectie:formeleeenheden,PFlMe,zandsteen/siltsteen/steenkool,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFlNe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pflne,collectie:formeleeenheden,PFlNe,zandsteen/siltsteen/steenkool,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFlWa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pflwa,collectie:formeleeenheden,PFlWa,zandsteen/siltsteen/steenkool,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFq,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfq,collectie:formeleeenheden,PFq,afwisselend leist. en siltige leist.,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfr,collectie:formeleeenheden,PFr,schalie en dolomiet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PFu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pfu,collectie:formeleeenheden,PFu,"leisteen, kleisteen, siltsteen, zandstn",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PG,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pg,collectie:formeleeenheden,PG,kalksteen met kleiinterval,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PGe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pge,collectie:formeleeenheden,PGe,kalkstenen en dolomiet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PGo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pgo,collectie:formeleeenheden,PGo,verkiezelde gesteenten,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.phe,collectie:formeleeenheden,PHe,"klei- silt- kalksteen, mergel, conglom.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHeH1,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh1,collectie:formeleeenheden,PHeH1,conglomeraat,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHeH2,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh2,collectie:formeleeenheden,PHeH2,"kalkrijke zandsteen, kleisteen en siltsteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHeH3,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh3,collectie:formeleeenheden,PHeH3,grijze mergel,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHeH4,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh4,collectie:formeleeenheden,PHeH4,zandsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHeH5,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pheh5,collectie:formeleeenheden,PHeH5,kleisteen met siltsteen en zandsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.phi,collectie:formeleeenheden,PHi,"kalksteen, dolomiet",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pho,collectie:formeleeenheden,PHo,leisteen en fijne siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.phs,collectie:formeleeenheden,PHs,crinoïdenkalksteenbanken,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PHu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.phu,collectie:formeleeenheden,PHu,"kleisteen, silsteen en zandsteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PIt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pit,collectie:formeleeenheden,PIt,"afw. zandsteen, siltsteen en kleisteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PJo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pjo,collectie:formeleeenheden,PJo,"kwartsiet, zandsteen, leisteen en schalie",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PK,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pk,collectie:formeleeenheden,PK,kalkstenen en/of dolomiet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PKe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pke,collectie:formeleeenheden,PKe,kalksteen/zandsteen/kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PLa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pla,collectie:formeleeenheden,PLa,crinoïdenkalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PLm,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.plm,collectie:formeleeenheden,PLm,schiefer,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PLo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.plo,collectie:formeleeenheden,PLo,wacke tot boundstone,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PLs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pls,collectie:formeleeenheden,PLs,schalie,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PLt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.plt,collectie:formeleeenheden,PLt,leisteen en fijne siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PLu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.plu,collectie:formeleeenheden,PLu,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pma,collectie:formeleeenheden,PMa,"schiefer, silt-zand-kalk-steen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMd,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmd,collectie:formeleeenheden,PMd,vulkanische gesteente met afw. Siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMdXa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxa,collectie:formeleeenheden,PMdXa,schalie en siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMdXb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxb,collectie:formeleeenheden,PMdXb,"siltst., zandst. en vulkanokl. congl.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMdXc,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxc,collectie:formeleeenheden,PMdXc,schalie,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMdXd,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxd,collectie:formeleeenheden,PMdXd,groffe siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMdXe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxe,collectie:formeleeenheden,PMdXe,schalie,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMdXf,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxf,collectie:formeleeenheden,PMdXf,daciet en breccia,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMdXg,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmdxg,collectie:formeleeenheden,PMdXg,siltige schalie,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmn,collectie:formeleeenheden,PMn,psammieten en zandstenen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmo,collectie:formeleeenheden,PMo,"schalie of leisteen, soms kleisteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMoFr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmofr,collectie:formeleeenheden,PMoFr,schalie of leisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMoTa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmota,collectie:formeleeenheden,PMoTa,schalie of leisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMoXx,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmoxx,collectie:formeleeenheden,PMoXx,schalie of leisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PMu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pmu,collectie:formeleeenheden,PMu,conglomeraat,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PNe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pne,collectie:formeleeenheden,PNe,grove zandstenen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+POD,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pod,collectie:formeleeenheden,POD,Gesteenten afgezet tijdens het Ordovicium,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+POr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.por,collectie:formeleeenheden,POr,schalie en kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+POs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pos,collectie:formeleeenheden,POs,kleisteen/leisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+POsAs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.posas,collectie:formeleeenheden,POsAs,leisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+POsRi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.posri,collectie:formeleeenheden,POsRi,leisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PPe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ppe,collectie:formeleeenheden,PPe,kalksteen/dolomiet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PPo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ppo,collectie:formeleeenheden,PPo,schiefer,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PPr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ppr,collectie:formeleeenheden,PPr,"kalksteen en/of dolom., kleistenen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PPt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ppt,collectie:formeleeenheden,PPt,fyllade,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PRh,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.prh,collectie:formeleeenheden,PRh,kalkstenen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PRi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pri,collectie:formeleeenheden,PRi,leisteen of kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PRk,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.prk,collectie:formeleeenheden,PRk,siltige en kleiige schalie,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PRn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.prn,collectie:formeleeenheden,PRn,turbudieten met leisteen en kleisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PSa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.psa,collectie:formeleeenheden,PSa,zand- en siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PSaBo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.psabo,collectie:formeleeenheden,PSaBo,"conglom., zandst, siltst, kleist.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PSaFe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.psafe,collectie:formeleeenheden,PSaFe,kalsteen en kalksteenbreccie,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PSaMe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.psame,collectie:formeleeenheden,PSaMe,gedolom. Zandsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PSe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pse,collectie:formeleeenheden,PSe,gespleten kleisteen en siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PSo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pso,collectie:formeleeenheden,PSo,"kalkstenen, dolomieten en schiefers",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PSt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pst,collectie:formeleeenheden,PSt,kalksteen/dolomiet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PTo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pto,collectie:formeleeenheden,PTo,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PToAl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptoal,collectie:formeleeenheden,PToAl,crinoïdenkalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PToCr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptocr,collectie:formeleeenheden,PToCr,crinoïdenkalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PToPo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptopo,collectie:formeleeenheden,PToPo,crinoïdenkalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PToPr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptopr,collectie:formeleeenheden,PToPr,crinoïdenkalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PToVa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptova,collectie:formeleeenheden,PToVa,crinoïdenkalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PToVi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptovi,collectie:formeleeenheden,PToVi,crinoïdenkalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PTr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptr,collectie:formeleeenheden,PTr,kleiige zandsteen en siltsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PTu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptu,collectie:formeleeenheden,PTu,kleisteen/silsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PTuFo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptufo,collectie:formeleeenheden,PTuFo,leisteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PTuRo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pturo,collectie:formeleeenheden,PTuRo,zandsteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PTuXx,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ptuxx,collectie:formeleeenheden,PTuXx,"leisteen, siltsteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PVa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pva,collectie:formeleeenheden,PVa,"leist., kleist., siltst. en zandst.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PVc,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pvc,collectie:formeleeenheden,PVc,"leisteen, kleisteen, siltsteen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PVe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pve,collectie:formeleeenheden,PVe,dolomiet,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PVi,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pvi,collectie:formeleeenheden,PVi,kalksteen,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PVl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pvl,collectie:formeleeenheden,PVl,wacke tot grainstone,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+PVs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.pvs,collectie:formeleeenheden,PVs,"leist., kleist., siltst. en zandst.",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Q,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.q,collectie:formeleeenheden,Q,divers,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+QH,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.qh,collectie:formeleeenheden,QH,divers,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+QP,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.qp,collectie:formeleeenheden,QP,divers,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Rb,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.rb,collectie:formeleeenheden,Rb,kleiig-zandig grind,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+RO,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ro,collectie:formeleeenheden,RO,loess,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+RU,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ru,collectie:formeleeenheden,RU,"klei, silt en zand",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+S,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.s,collectie:formeleeenheden,S,vaste gesteenten,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+SC,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.sc,collectie:formeleeenheden,SC,"fluviatiele afzettingen, Schelde en Ijzer",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Sh,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.sh,collectie:formeleeenheden,Sh,zand/klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+ShGr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.shgr,collectie:formeleeenheden,ShGr,(zandh) klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+ShNe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.shne,collectie:formeleeenheden,ShNe,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Si,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.si,collectie:formeleeenheden,Si,"zandsteen, kwartsiet, kleisteen, schalie en schist",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Sk,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.sk,collectie:formeleeenheden,Sk,grind / silt,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+St,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.st,collectie:formeleeenheden,St,grind,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+StBo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.stbo,collectie:formeleeenheden,StBo,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+StHa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.stha,collectie:formeleeenheden,StHa,grind en grof zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+StLo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.stlo,collectie:formeleeenheden,StLo,grind en grof zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+T,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.t,collectie:formeleeenheden,T,divers,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ti,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ti,collectie:formeleeenheden,Ti,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+TiDo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tido,collectie:formeleeenheden,TiDo,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+TiEr,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tier,collectie:formeleeenheden,TiEr,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+TiKn,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tikn,collectie:formeleeenheden,TiKn,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+TiLo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tilo,collectie:formeleeenheden,TiLo,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+TO,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.to,collectie:formeleeenheden,TO,zand/klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+TR,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tr,collectie:formeleeenheden,TR,Gesteenten afgezet tijdens het Trias,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Tt,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tt,collectie:formeleeenheden,Tt,zand/silt,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+TtEg,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.tteg,collectie:formeleeenheden,TtEg,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+TtEk,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ttek,collectie:formeleeenheden,TtEk,zware klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+TtKo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ttko,collectie:formeleeenheden,TtKo,silt,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+U,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.u,collectie:formeleeenheden,U,onbekend,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Ve,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ve,collectie:formeleeenheden,Ve,loess,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Vl,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vl,collectie:formeleeenheden,Vl,"fijn getijdenzand, waddenzand, klei en veen",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+VlCa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vlca,collectie:formeleeenheden,VlCa,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+VlDh,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vldh,collectie:formeleeenheden,VlDh,schelprijk zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+VlDu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vldu,collectie:formeleeenheden,VlDu,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Vo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vo,collectie:formeleeenheden,Vo,zand/klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+VoSo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.voso,collectie:formeleeenheden,VoSo,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+VoVe,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vove,collectie:formeleeenheden,VoVe,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+VoVo,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.vovo,collectie:formeleeenheden,VoVo,zand en klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+We,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.we,collectie:formeleeenheden,We,zand/klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+WeBs,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.webs,collectie:formeleeenheden,WeBs,"zandige eenheid, met veenlagen en cryoturbaties",,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+WeRv,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.werv,collectie:formeleeenheden,WeRv,klei/zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+WeTu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.wetu,collectie:formeleeenheden,WeTu,klei/zand met bodemhorizonten,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Zd,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zd,collectie:formeleeenheden,Zd,grind,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+ZE,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.ze,collectie:formeleeenheden,ZE,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+Zz,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zz,collectie:formeleeenheden,Zz,klei/zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+ZzBa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zzba,collectie:formeleeenheden,ZzBa,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+ZzRu,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zzru,collectie:formeleeenheden,ZzRu,zand,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+ZzWa,be.vlaanderen.bodemenondergrond.data.id.concept.formeleeenheid.zzwa,collectie:formeleeenheden,ZzWa,klei,,,,,,,,,,,,,conceptscheme:formeleeenheid,,,,,,,conceptscheme:formeleeenheid
+conceptscheme:formeleeenheid,be.vlaanderen.bodemenondergrond.data.id.conceptscheme.formeleeenheid,,,Lijst van formele eenheden i.v.m. bodem en ondergrond.,,,,,,,,,,,,,,,,,,,,
